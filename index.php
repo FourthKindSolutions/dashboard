@@ -5,11 +5,26 @@ session_start();
 if (isset($_SESSION['username'])) {
     header('Location: dashboard.php');
     exit;
+    
+}
+// Check if the form has been submitted
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Check the username and password
+    if ($_POST['username'] === 'myusername' && $_POST['password'] === 'mypassword') {
+        // Set the session variable and redirect to dashboard
+        $_SESSION['username'] = $_POST['username'];
+        header('Location: dashboard.php');
+        exit;
+    } else {
+        // Display an error message
+        $error_message = 'Incorrect username or password.';
+    }
 }
 ?>
 
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="style.css" />
 <head>
     <style>
         
@@ -67,14 +82,16 @@ if (isset($_SESSION['username'])) {
     </style>
 </head>
 <body>
-<form action="login.php" method="POST">
-    
-    <label for="username">Username:</label>
-    <input type="text" name="username" id="username"><br>
-    <label for="password">Password:</label>
-    <input type="password" name="password" id="password"><br>
-    <button type="submit">Login</button>
-</form>
+    <form action="login.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br>
+        <button type="submit">Login</button>
+    </form>
 
+    <?php if (isset($error_message)): ?>
+        <p class="error"><?php echo $error_message; ?></p>
+    <?php endif; ?>
 </body>
 </html>
