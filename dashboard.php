@@ -104,7 +104,7 @@ $username = $_SESSION['username'];
 					<!-- Contenedor para las tarjetas de películas -->
 					<div class="cards">
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-PROD">
+						<a href="https://demo-app1-csn.apps.oc.4ks.online"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
