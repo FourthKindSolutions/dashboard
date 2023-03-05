@@ -20,6 +20,18 @@ if (isset($_SESSION['redirect'])) {
 }
 ?>
 <!DOCTYPE html>
+<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		iframe {
+			border: none;
+			width: 100vw;
+			height: 100vh;
+		}
+	</style>
 <html>
    <head>
       <script>
@@ -31,6 +43,30 @@ if (isset($_SESSION['redirect'])) {
       </script>
    </head>
    <body>
-      <iframe width="100%" height="100%" id="myiframe" src="https://4ks.mx"></iframe>
+      <iframe width="100%" height="100%" id="myiframe" src="https://4ks.mx" frameborder="0" ></iframe>
    </body>
+</html>
+
+
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>App1</title>
+
+</head>
+<body>
+	<?php
+		// Check if the user is logged in
+		if (!isset($_SESSION['username'])) {
+			header('Location: login.php');
+			exit;
+		}
+	?>
+
+	<iframe src="http://example.com" frameborder="0"></iframe>
+</body>
 </html>
