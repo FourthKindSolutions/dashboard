@@ -1,12 +1,14 @@
 <?php
+session_set_cookie_params(0, '/', '..4ks.online');
 session_start();
 
 // Check if the user is logged in
 if (isset($_SESSION['username'])) {
     header('Location: dashboard.php');
     exit;
-    
 }
+?>
+
 // Check if the form has been submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Check the username and password
