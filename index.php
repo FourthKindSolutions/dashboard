@@ -7,7 +7,7 @@ if (isset($_SESSION['username'])) {
     header('Location: login.php');
     exit;
 }
-?>
+
 
 // Check if the form has been submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
