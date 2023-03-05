@@ -1,5 +1,5 @@
 <?php
-session_set_cookie_params(0, '/', '..4ks.online');
+session_set_cookie_params(0, '/', '.4ks.online');
 session_start();
 
 // Check if the user is logged in
