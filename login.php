@@ -1,4 +1,5 @@
 <?php
+session_set_cookie_params(0, '/', '.4ks.online');
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
