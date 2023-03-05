@@ -1,11 +1,14 @@
 <?php
+session_set_cookie_params(0, '/', '.4ks.online');
 session_start();
 
+// Check if the user is logged in
 if (!isset($_SESSION['username'])) {
     header('Location: login.php');
     exit;
 }
 
+// User is logged in, display the app content here
 $username = $_SESSION['username'];
 ?>
 
