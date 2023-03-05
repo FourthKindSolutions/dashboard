@@ -24,7 +24,7 @@ if (isset($_SESSION['redirect'])) {
       <script>
          window.onload = function() {
             var iframe = document.getElementById("myiframe");
-            iframe.width = 100;
+            iframe.width = iframe.contentWindow.document.body.scrollWidth;
             iframe.height = iframe.contentWindow.document.body.scrollHeight;
          }
       </script>
