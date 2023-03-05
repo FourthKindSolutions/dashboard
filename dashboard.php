@@ -107,31 +107,31 @@ $username = $_SESSION['username'];
 					<!-- Contenedor para las tarjetas de películas -->
 					<div class="cards">
 						<!-- Tarjeta de una película -->
-						<a href="https://demo-app1-csn.apps.oc.4ks.online"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 					</div>
@@ -143,31 +143,31 @@ $username = $_SESSION['username'];
 					<!-- Contenedor para las tarjetas de películas -->
 					<div class="cards">
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP1-TEST">
+						<a href="../apps/app1.php"><div class="card" data-text="APP1-TEST">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP2-TEST">
+						<a href="../apps/app1.php"><div class="card" data-text="APP2-TEST">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP3-TEST">
+						<a href="../apps/app1.php"><div class="card" data-text="APP3-TEST">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP4-TEST">
+						<a href="../apps/app1.php"><div class="card" data-text="APP4-TEST">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP5-TEST">
+						<a href="../apps/app1.php"><div class="card" data-text="APP5-TEST">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP6-TEST">
+						<a href="../apps/app1.php"><div class="card" data-text="APP6-TEST">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP7-TEST">
+						<a href="../apps/app1.php"><div class="card" data-text="APP7-TEST">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 					</div>
@@ -179,19 +179,19 @@ $username = $_SESSION['username'];
 					<!-- Contenedor para las tarjetas de películas -->
 					<div class="cards">
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP1-DEV">
+						<a href="../apps/app1.php"><div class="card" data-text="APP1-DEV">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP2-DEV">
+						<a href="../apps/app1.php"><div class="card" data-text="APP2-DEV">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP3-DEV">
+						<a href="../apps/app1.php"><div class="card" data-text="APP3-DEV">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="https://app11-csn.apps.oc.4ks.global"><div class="card" data-text="APP4-DEV">
+						<a href="../apps/app1.php"><div class="card" data-text="APP4-DEV">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 					</div>
