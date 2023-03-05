@@ -1,0 +1,56 @@
+
+.form-container {
+  background-image: url("../img/user.png");
+  display: flexbox;
+  background-repeat: no-repeat;
+  background-size: 100px; /* ajusta el tamaño de la imagen */
+  background-position: center top; /* ajusta la posición de la imagen */
+  padding-top: 120px; /* ajusta la altura del contenedor para dejar espacio para la imagen */
+}
+.body {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-flex;
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-image: url("../img/fondo.png"); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(55, 215, 52, 0.5);
+}
+.login-form {
+  position: relative;
+}
+
+.login-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url('../img/user.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.spacing-1{
+  margin-top: 5em;
+}
+
+.spacing-2{
+  margin-top: 1em;
+}
+
+.center{
+  text-align: center;
+}
+
+.text-accent{
+  color: #727272;
+}
+
