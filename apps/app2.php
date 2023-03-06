@@ -61,8 +61,8 @@ if (isset($_SESSION['redirect'])) {
 </head>
 <body>
 	<nav class="navbar">
-		<a href="dashboard.php">Dashboard</a>
-		<a href="logout.php">Logout</a>
+		<a href="../dashboard.php">Dashboard</a>
+		<a href="../logout.php">Logout</a>
 	</nav>
 
 	<iframe src="https://4ks.mx" frameborder="0"></iframe>
