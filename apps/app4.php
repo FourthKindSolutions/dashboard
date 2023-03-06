@@ -65,6 +65,6 @@ if (isset($_SESSION['redirect'])) {
 		<a href="../logout.php">Logout</a>
 	</nav>
 
-	<iframe src="https://basic-panel-project-git.csn.svc.cluster.local:8443" frameborder="0"></iframe>
+	<iframe src="http://172.30.184.43:8080" frameborder="0"></iframe>
 </body>
 </html>
