@@ -13,36 +13,9 @@ $username = $_SESSION['username'];
 ?>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Dashboard</title>
-</head>
-<body>
-<style>
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        background-color: #f0f0f0;
-    }
-    
-    .user {
-        text-align: center;
-    }
-    
-    h1 {
-        margin-top: 0;
-    }
-    
-    a {
-        color: black;
-        text-decoration: none;
-        margin-right: 20px;
-    }
-</style>
+<html lang="es">
 	<head>
+	    <title>Dashboard</title>
 		<!-- Establece la codificación de caracteres como UTF-8 -->
 		<meta charset="UTF-8" />
 		<!-- Establece la compatibilidad con Internet Explorer -->
