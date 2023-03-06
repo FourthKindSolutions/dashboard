@@ -111,7 +111,7 @@ $username = $_SESSION['username'];
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
-						<a href="../apps/app1.php"><div class="card" data-text="APP6-PROD">
+						<a href="../apps/app2.php"><div class="card" data-text="APP6-PROD">
 							<img src="img/bollywoodMovies/csn.png" alt="" />
 						</div></a>
 						<!-- Tarjeta de una película -->
