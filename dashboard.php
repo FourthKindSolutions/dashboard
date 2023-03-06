@@ -22,6 +22,40 @@ $username = $_SESSION['username'];
 
 <!DOCTYPE html>
 <html lang="es">
+<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		iframe {
+			border: none;
+			width: 100vw;
+			height: calc(100vh - 60px);
+			margin-top: 60px;
+		}
+
+		.navbar {
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 20px;
+			color: #fff;
+		}
+
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+
+	</style>
 	<head>
 		<!-- Establece la codificación de caracteres como UTF-8 -->
 		<meta charset="UTF-8" />
