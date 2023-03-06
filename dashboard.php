@@ -97,15 +97,15 @@ $username = $_SESSION['username'];
 	</head>
     <!-- Contenedor principal de la página -->
 	<body>
-     <nav class="navbar">
-         <a href="dashboard.php">Dashboard</a>
-         <div class="user">
-             <h1>Welcome, <?php echo $username; ?>!</h1>
-             <p>You are now logged in and can access your dashboard.</p>
-             <p><a href="logout.php">Log out</a></p>
-         </div>
-         <a href="logout.php">Logout</a>
-     </nav>
+      	  <nav class="navbar">
+            <a href="dashboard.php">Dashboard</a>
+               <div class="user">
+             	<h1>Welcome, <?php echo $username; ?>!</h1>
+             	<p>You are now logged in and can access your dashboard.</p>
+             	<p><a href="logout.php">Log out</a></p>
+         	</div>
+            <a href="logout.php">Logout</a>
+     	   </nav>
 		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
