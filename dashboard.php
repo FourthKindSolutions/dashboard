@@ -34,7 +34,9 @@ $username = $_SESSION['username'];
 			height: calc(100vh - 60px);
 			margin-top: 60px;
 		}
-
+		.user {
+			text-align: center;
+		}
 		.navbar {
 			background-color: #333;
 			position: fixed;
@@ -111,16 +113,11 @@ $username = $_SESSION['username'];
 	</head>
 
 	<body>
-		<!-- Contenedor principal de la página -->
-		<nav class="navbar">
-					<div class="user">				    <!-- ucfirst convierte la primera letra en mayusculas de una cadena -->
-					<h1>Welcome, <?php echo $username; ?>!</h1>
-    				<p>You are now logged in and can access your dashboard.</p>
-    				<p><a href="logout.php">Log out</a></p>
-					</a></div>
+	<nav class="navbar">
 		<a href="dashboard.php">Dashboard</a>
 		<a href="logout.php">Logout</a>
 	</nav>
+		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
 			<header class="nav">
