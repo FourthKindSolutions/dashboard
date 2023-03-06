@@ -50,9 +50,13 @@ $username = $_SESSION['username'];
 			<header class="nav">
 				<!-- Menú de navegación -->
 				<div class="menu">
-					<h1>Welcome, <?php echo $username; ?>!</h1><p>You are now logged in and can access your dashboard.</p>
+					<h1>Welcome, <?php echo $username; ?>!</h1>
+					<p>You are now logged in and can access your dashboard.</p>
 					<a href="dashboard.php">Dashboard</a>
-		                        <a href="logout.php">Logout</a>
+		            <a href="logout.php">Logout</a>
+				</div>
+			
+				<div class="menu">
 					<!-- Enlaces de navegación -->
 					<a href="#" class="active">Todas</a>
 					<a href="#">Producion</a>
