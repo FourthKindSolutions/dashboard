@@ -77,6 +77,10 @@ $username = $_SESSION['username'];
 	</head>
 
 	<body>
+	<nav class="navbar">
+		<a href="dashboard.php">Dashboard</a>
+		<a href="logout.php">Logout</a>
+	</nav>
 		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
