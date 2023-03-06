@@ -44,21 +44,15 @@ $username = $_SESSION['username'];
 	</head>
 
 	<body>
-	<nav class="navbar">
-		<a href="dashboard.php">Dashboard</a>
-		<a href="logout.php">Logout</a>
-	</nav>
 		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
-			<div class="user">				    <!-- ucfirst convierte la primera letra en mayusculas de una cadena -->
-					<h1>Welcome, <?php echo $username; ?>!</h1>
-    				<p>You are now logged in and can access your dashboard.</p>
-    				<p><a href="logout.php">Log out</a></p>
-					</a></div>
 			<header class="nav">
 				<!-- Menú de navegación -->
 				<div class="menu">
+					<h1>Welcome, <?php echo $username; ?>!</h1><p>You are now logged in and can access your dashboard.</p>
+					<a href="dashboard.php">Dashboard</a>
+		                        <a href="logout.php">Logout</a>
 					<!-- Enlaces de navegación -->
 					<a href="#" class="active">Todas</a>
 					<a href="#">Producion</a>
