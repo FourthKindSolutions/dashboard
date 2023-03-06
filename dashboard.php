@@ -13,9 +13,10 @@ $username = $_SESSION['username'];
 ?>
 
 
+<!DOCTYPE html>
 <html lang="es">
+	<title>Dashboard</title>
 	<head>
-	    <title>Dashboard</title>
 		<!-- Establece la codificación de caracteres como UTF-8 -->
 		<meta charset="UTF-8" />
 		<!-- Establece la compatibilidad con Internet Explorer -->
@@ -25,33 +26,6 @@ $username = $_SESSION['username'];
 		<!-- Establece el título de la página -->
 		<title>Menú de navegación</title>
 		<!-- Descripción del sitio web -->
-		<meta
-			name="description"
-			content="Sitio web que ofrece un menú de opciones para navegar y acceder a diferentes contenidos, así como tarjetas para visualizar información de manera organizada y atractiva"
-		/>
-		<!-- Palabras clave del sitio web -->
-		<meta
-			name="keywords"
-			content="menú, navegación, opciones, contenidos, tarjetas, información"
-		/>
-		<!-- Facebook Open Graph -->
-		<meta property="og:type" content="website" />
-		<meta
-			property="og:url"
-			content="https://isabellaea.com/Baul/menu-navigation"
-		/>
-		<meta property="og:title" content="Menú de navegación" />
-		<meta
-			property="og:description"
-			content="Sitio web que ofrece un menú de opciones para navegar y acceder a diferentes contenidos, así como tarjetas para visualizar información de manera organizada y atractiva"
-		/>
-		<meta
-			property="og:image"
-			content="https://isabellaea.com/Baul/menu-navigation/img/favicon.png"
-		/>
-
-		
-
 		<!-- URL canónica del sitio web -->
 		<link rel="canonical" href="https://isabellaea.com/Baul/menu-navigation" />
 		<!-- Favicon del sitio web -->
@@ -68,20 +42,20 @@ $username = $_SESSION['username'];
 			referrerpolicy="no-referrer"
 		/>
 	</head>
-    <!-- Contenedor principal de la página -->
+
 	<body>
-      	  <nav class="navbar">
-            <a href="dashboard.php">Dashboard</a>
-               <div class="user">
-             	<h1>Welcome, <?php echo $username; ?>!</h1>
-             	<p>You are now logged in and can access your dashboard.</p>
-             	<p><a href="logout.php">Log out</a></p>
-         	</div>
-            <a href="logout.php">Logout</a>
-     	   </nav>
+	<nav class="navbar">
+		<a href="dashboard.php">Dashboard</a>
+		<a href="logout.php">Logout</a>
+	</nav>
 		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
+			<div class="user">				    <!-- ucfirst convierte la primera letra en mayusculas de una cadena -->
+					<h1>Welcome, <?php echo $username; ?>!</h1>
+    				<p>You are now logged in and can access your dashboard.</p>
+    				<p><a href="logout.php">Log out</a></p>
+					</a></div>
 			<header class="nav">
 				<!-- Menú de navegación -->
 				<div class="menu">
