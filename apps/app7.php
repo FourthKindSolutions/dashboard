@@ -65,6 +65,6 @@ if (isset($_SESSION['redirect'])) {
 		<a href="../logout.php">Logout</a>
 	</nav>
 
-	<iframe src="https://4ks.mx" frameborder="0"></iframe>
+	<iframe src="https://php-boiler.csn.svc.cluster.local:8443" frameborder="0"></iframe>
 </body>
 </html>
