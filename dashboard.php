@@ -19,45 +19,29 @@ $username = $_SESSION['username'];
     <title>Dashboard</title>
 </head>
 <body>
-
-<!DOCTYPE html>
-<html lang="es">
 <style>
-		body {
-			margin: 0;
-			padding: 0;
-		}
-		
-		iframe {
-			border: none;
-			width: 100vw;
-			height: calc(100vh - 60px);
-			margin-top: 60px;
-		}
-		.user {
-			text-align: center;
-		}
-		.navbar {
-			background-color: #333;
-			position: fixed;
-			top: 0;
-			left: 0;
-			right: 0;
-			height: 60px;
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			padding: 0 20px;
-			color: #fff;
-		}
-
-		.navbar a {
-			color: #fff;
-			text-decoration: none;
-			margin-right: 20px;
-		}
-
-	</style>
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f0f0f0;
+    }
+    
+    .user {
+        text-align: center;
+    }
+    
+    h1 {
+        margin-top: 0;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+</style>
 	<head>
 		<!-- Establece la codificación de caracteres como UTF-8 -->
 		<meta charset="UTF-8" />
@@ -111,12 +95,17 @@ $username = $_SESSION['username'];
 			referrerpolicy="no-referrer"
 		/>
 	</head>
-
+    <!-- Contenedor principal de la página -->
 	<body>
-	<nav class="navbar">
-		<a href="dashboard.php">Dashboard</a>
-		<a href="logout.php">Logout</a>
-	</nav>
+     <nav class="navbar">
+         <a href="dashboard.php">Dashboard</a>
+         <div class="user">
+             <h1>Welcome, <?php echo $username; ?>!</h1>
+             <p>You are now logged in and can access your dashboard.</p>
+             <p><a href="logout.php">Log out</a></p>
+         </div>
+         <a href="logout.php">Logout</a>
+     </nav>
 		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
