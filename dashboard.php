@@ -47,17 +47,11 @@ $username = $_SESSION['username'];
 		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
+			<h1>Welcome, <?php echo $username; ?>!</h1>
 			<header class="nav">
-				<!-- Menú de navegación -->
-				<div class="menu">
-					<h1>Welcome, <?php echo $username; ?>!</h1>
-					<p>You are now logged in and can access your dashboard.</p>
-					<a href="dashboard.php">Dashboard</a>
-		            <a href="logout.php">Logout</a>
-				</div>
-			
 				<div class="menu">
 					<!-- Enlaces de navegación -->
+					<a href="dashboard.php">Dashboard</a>
 					<a href="#" class="active">Todas</a>
 					<a href="#">Producion</a>
 					<a href="#">Testing</a>
@@ -66,6 +60,7 @@ $username = $_SESSION['username'];
 					<div class="searchBox">
 						<i class="fas fa-search"></i>
 					</div>
+					<a href="logout.php">Logout</a>
 				</div>
 			</header>
 			<!-- Contenido principal de la página -->
