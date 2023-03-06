@@ -11,8 +11,6 @@ if (!isset($_SESSION['username'])) {
 // User is logged in, display the app content here
 $username = $_SESSION['username'];
 ?>
-
-
 <!DOCTYPE html>
 <html lang="es">
 	<title>Dashboard</title>
@@ -42,12 +40,10 @@ $username = $_SESSION['username'];
 			referrerpolicy="no-referrer"
 		/>
 	</head>
-
 	<body>
 		<!-- Contenedor principal de la página -->
 		<div class="container">
 			<!-- Encabezado de la página -->
-			<h1>Welcome, <?php echo $username; ?>!</h1>
 			<header class="nav">
 				<div class="menu">
 					<!-- Enlaces de navegación -->
