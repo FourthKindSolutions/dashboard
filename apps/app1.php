@@ -65,6 +65,6 @@ if (isset($_SESSION['redirect'])) {
 		<a href="../logout.php">Logout</a>
 	</nav>
 
-	<iframe src="https://4ks.mx" frameborder="0"></iframe>
+	<iframe src="https://reverse-words-authenticated-csn.apps.oc.4ks.online" frameborder="0"></iframe>
 </body>
 </html>
