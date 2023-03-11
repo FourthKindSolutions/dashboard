@@ -1,23 +1,4 @@
-<?php
-session_set_cookie_params(0, '/', '.4ks.online');
-session_start();
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    // Here you can validate the username and password against a database or other source.
-    // For this example, we will use hardcoded values.
-
-    if ($username === 'john' && $password === 'password123') {
-        $_SESSION['username'] = $username;
-        header('Location: dashboard.php');
-        exit;
-    } else {
-        $error = 'Invalid username or password.';
-    }
-}
-?>
 
 <!DOCTYPE html>
 <html>
